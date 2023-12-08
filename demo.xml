@@ -1,0 +1,6 @@
+<!-- voice_response.xml -->
+<Response>
+    <Say>Hello! This is an outgoing call.</Say>
+    <Pause length="2"/>
+    <Redirect method="POST">/incoming_call</Redirect>
+</Response>
