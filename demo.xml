@@ -1,6 +1,7 @@
-<!-- voice_response.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Say>Hello! This is an outgoing call.</Say>
-    <Pause length="2"/>
-    <Redirect method="POST">/incoming_call</Redirect>
+    <Say voice="woman">Thanks for trying our documentation. Enjoy!</Say>
+    <Connect>
+        <Stream url="https://53e4-206-84-142-69.ngrok-free.app"/>
+    </Connect>
 </Response>
